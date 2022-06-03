@@ -3,4 +3,4 @@ project(LifeManagementSystem)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(LifeManagementSystem main.cpp)
+add_executable(LifeManagementSystem main.cpp src/Layers/Operation.cpp src/Layers/Operation.h)
